@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1450634658 source:/home/slic/mshell/main.c
+	<ctype.h>
+	<errno.h>
+	<fcntl.h>
+	<glob.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/ioctl.h>
+	<sys/wait.h>
+	<unistd.h>
+	<linux/types.h>
+	<sys/types.h>
+	<pwd.h>
+

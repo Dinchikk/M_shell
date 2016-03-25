@@ -1,0 +1,27 @@
+ls
+
+#тут все работает
+echo "PID   = ${PID};"
+echo "UID   = ${UID};"
+echo "PWD   = ${PWD};"
+echo "USER  = ${USER}"
+echo "HOME  = ${HOME};"
+echo "SHELL = ${SHELL};"
+
+echo "$#"
+echo 'PID  = ${PID};'
+echo 'UID  = ${UID};'
+echo 'USER = ${USER};'
+echo "$1"
+echo "$4"
+echo "$9"
+echo "$?"
+
+pwd 
+
+cd new
+
+pwd 
+pwd|msed / --
+
+

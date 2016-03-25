@@ -1,0 +1,7 @@
+#pwd|msed / --
+
+pwd > test_file.txt
+echo "Testing record" >> test_file.txt
+
+msed / -- < test_file.txt |mcat
+
